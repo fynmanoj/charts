@@ -1,0 +1,47 @@
+apiVersion: v1
+entries:
+  fin-engine:
+  - apiVersion: v2
+    appVersion: 1.4.1
+    created: "2025-10-24T00:22:53.560711+05:30"
+    dependencies:
+    - alias: mysql
+      condition: mariadb.enabled, mysql.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.5.0
+    description: Fineract Engine
+    digest: c708fd6e2db7b795552e979165bc7a7d4ac1c9fba75fb460f31b8499be54bf43
+    name: fin-engine
+    urls:
+    - https://fynmanoj.github.io/charts/fineract-helm-charts/fin-engine-1.4.1-SNAPSHOT/fin-engine-1.4.1-SNAPSHOT.tgz
+    version: 1.4.1-SNAPSHOT
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2025-10-24T00:22:53.557149+05:30"
+    description: Fineract Engine
+    digest: 184bbb17ffa5a1a1e5666e0e05ac15458b74520dea5bc48ce40f0dcc1ef0883f
+    name: fin-engine
+    urls:
+    - https://fynmanoj.github.io/charts/fineract-helm-charts/fin-engine-1.4.1-SNAPSHOT/fin-engine-1.0.0-SNAPSHOT.tgz
+    version: 1.0.0-SNAPSHOT
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2025-10-24T00:22:53.567504+05:30"
+    description: Fineract Engine
+    digest: 3a7aaf2d331bf5735a1baa61dc85e452463fa0f2c890324171fc2a4894952da0
+    name: fin-engine
+    urls:
+    - https://fynmanoj.github.io/charts/fineract-helm-charts/fin-engine-1.4.1-SNAPSHOT/helm/fin-engine-1.0.0-SNAPSHOT.tgz
+    version: 1.0.0-SNAPSHOT
+  g2p-sandbox:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2025-10-24T00:22:53.564393+05:30"
+    description: Fineract Engine
+    digest: 74c33f4c9fd1de71fccef996e3e90cfd943cd6c983efe45e6101be1b3d1df00d
+    name: g2p-sandbox
+    urls:
+    - https://fynmanoj.github.io/charts/fineract-helm-charts/fin-engine-1.4.1-SNAPSHOT/g2p-sandbox-1.0.0-SNAPSHOT.tgz
+    version: 1.0.0-SNAPSHOT
+generated: "2025-10-24T00:22:53.552354+05:30"
