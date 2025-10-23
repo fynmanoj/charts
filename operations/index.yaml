@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  operations:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-10-24T00:50:22.544564+05:30"
+    dependencies:
+    - condition: prometheus.enabled
+      name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 25.22.0
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 8.0.2
+    description: A Helm chart for Kubernetes
+    digest: 80ad4e19291b61b02aa664dded91582342754267a43f74228c4dc717946e0cbc
+    name: operations
+    type: application
+    urls:
+    - https://fynmanoj.github.io/charts/operations/operations-0.2.0.tgz
+    version: 0.2.0
+generated: "2025-10-24T00:50:22.535698+05:30"
